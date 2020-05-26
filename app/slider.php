@@ -1,0 +1,16 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class slider extends Model
+
+{
+	protected $table = "sliders";
+    protected $fillable =['Photo','Headling','Button_text','Button_Url','position_Button'];
+
+    
+     public  $timestamp=false;
+
+}
